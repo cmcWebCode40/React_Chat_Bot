@@ -1,0 +1,27 @@
+.anime {
+    height: 20rem;
+    width: 40rem;
+    background-color: #9c1c9c;
+    animation: move 3s ease-out infinite;
+    // animation-delay: 2s;
+}
+
+body {
+    height: 200vh;
+}
+
+.static {
+    height: 20rem;
+    width: 40rem;
+}
+
+@keyframes move {
+    from {
+        opacity: 0;
+        background-color: yellow;
+    }
+    to {
+        opacity: 1;
+        background-color: red;
+    }
+}
